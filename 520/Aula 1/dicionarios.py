@@ -38,3 +38,35 @@ print("Número de Buracos: "+str(int(dicruas['buracos'])+10))
 
 lista = list(dicruas.keys())
 print(lista)
+
+# Criar o seguinte dicionário:
+dados= {
+    'cidade':{
+        'saoPaulo':{
+            'nome':'são paulo',
+            'regiao':'sudeste',
+            'municipios':'645',
+            'populacao':12.18
+        },
+        'rioDeJaneiro':{
+            'nome':'rioDeJaneiro',
+            'regiao':'sudeste',
+            'municipios':'92',
+            'populacao':6.32
+        }
+    }
+}
+
+# Acessar o estado de São Paulo e mostrar a quantidade de pessoas, em milhões
+# Acessar o estado do Rio de Janeiro e mostrar a região
+# Modificar o nome do rioDeJaneiro para Rio de Janeiro
+# Adicionar minasgerais ao dicionário com as seguintes características:
+#
+# nome - minas gerais
+# região - sudeste
+# municipios - 853
+# populacao - 20.87
+
+# Mostrar a população de Minas Gerais em milhões
+
+print(dados['cidade']['saoPaulo']['populacao'] * 1000000)
