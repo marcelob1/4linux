@@ -1,0 +1,24 @@
+Essa modificação é com o with open
+Indice 0 = indicel1
+Indice 1 = indicel2
+Indice 2 = indicel3
+Indice 3 = indicel4
+Indice 4 = indicel5
+Essa modificação é com o with open
+Indice 0 = indicel1
+Indice 1 = indicel2
+Indice 2 = indicel3
+Indice 3 = indicel4
+Indice 4 = indicel5
+Essa modificação é com o with open
+Indice 0 = indicel1
+Indice 1 = indicel2
+Indice 2 = indicel3
+Indice 3 = indicel4
+Indice 4 = indicel5
+Essa modificação é com o with open
+Indice 0 = indicel1
+Indice 1 = indicel2
+Indice 2 = indicel3
+Indice 3 = indicel4
+Indice 4 = indicel5
