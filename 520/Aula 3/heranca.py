@@ -16,3 +16,8 @@ class Foo():
         print('Executando')
 
 Foo.function()
+
+#Criar um banco de dados chamado biblioteca com dono no admin
+#Criar duas tabelas, livros, clientes
+# livros (nome VARCHAR(50),autor VARCHAR(50), paginas INT)
+# clientes (nome VARCHAR(50), sobrenome(50))

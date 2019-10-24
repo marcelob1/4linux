@@ -101,3 +101,30 @@ toto.latir()
 toto.comer()
 toto.cacar()
 
+class Humano():
+    def __init__(self,idade,nome,genero):
+        self.idade = idade
+        self.nome = nome
+        self.genero = genero
+    def andar(self):
+        return 'Andando'
+    def comer(self):
+        return 'Comendo'
+    def dormir(self):
+        return 'Dormindo'
+
+class Funcionario(Humano):
+    def __init__(self,profissao,nome,idade,genero):
+        super(Humano).__init__(nome,idade,genero)
+        self.profissao = profissao
+    def trabalhar(self):
+        return 'Trabalhando'
+
+funcionario = Funcionario('Jogador de futebol','Gabigol',23,'Homo')
+
+
+humano = Humano(19,'Lucas','Masculino')
+
+print(dir(funcionario))
+
+print(funcionario.dormir())
